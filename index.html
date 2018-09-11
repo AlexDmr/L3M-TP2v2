@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TP2 de L3 MIAGE</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+    <h1>TP 2</h1>
+
+
+    <h2>Exercice 1: Opération sur des nombres</h2>
+    <ul>
+        <li>Affichez un champs input de type number représentant l'opérande gauche.</li>
+        <li>Afficher un sélecteur (balise select) contenant les 4 opérations arithmétiques.</li>
+        <li>Affichez un champs input de type number représentant l'opérande droit.</li>
+        <li>Affichez un bouton =. Lorsqu'on clique dessus, le résultat de l'opération est affiché sur la page, à droite du égal.</li>
+    </ul>
+    <section id="Q1">
+        Votre code HTML de réponse ici...
+        <input type="number" class="operande1" value="2"/>
+        <select>
+            <option value="+">+</option>
+            <option value="-">-</option>
+            <option value="/">/</option>
+            <option value="*">*</option>
+        </select>
+        <input type="number" class="operande2" value="3"/>
+        <output></output>
+    </section>
+
+    <hr/>
+    <h2>Exercice 2: Produit scalaire de vecteurs</h2>
+    <ul>
+        <li>Afficher deux tableaux de même dimension, représentant deux vecteurs V1 et V2.</li>
+        <li>Afficher des boutons pour ajouter des dimensions aux tableaux ou en retirer.</li>
+        <li>Afficher un bouton "calculer le produit scalaire" qui calcul est affiche le produit scalaire lorsque qu'on clique dessus.</li>
+    </ul>
+    <section id="Q2">
+        Votre code HTML de réponse ici...
+        <button class="increase">Ajouter une dimension</button>
+        <button class="decrease">Retirer une dimension</button>
+        <table class="V1">
+            <tbody></tbody>
+            <caption>V1</caption>
+        </table>
+        .
+        <table class="V2">
+            <tbody></tbody>
+            <caption>V2</caption>
+        </table>
+        =
+        <output></output>
+    </section>
+
+
+    <h2>Exercice 3: Reprendre l'exercice 1 et ajouter un mode édition</h2>
+    <ul>
+        <li>Par défaut, on ne veut pas afficher les balises input, mais plutot des balise label contenant la valeur de l'opérande</li>
+        <li>Si on double click sur un de ces labels, un champs input apparait, permettant de modifier l'opérande.</li>
+        <li>On sort du mode édition de l'opérande si on perds le focus</li>
+        <li>Même chose pour le select</li>
+    </ul>
+
+    <h2>Exercice 4: Reprendre l'exercice 1 et ajouter un mode édition</h2>
+    <ul>
+        <li>Idem...</li>
+    </ul>
+
+</body>
+</html>
